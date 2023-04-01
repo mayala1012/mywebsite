@@ -1,9 +1,48 @@
 p{
- color  : red;
+ color  :black;
+
+}
+h1{
+color:blue;
+}
+
+img {    
+    
+    width: 300px;
+    height: 300px;
+}
+
+.hero-box { 
+    display: grid;
+    grid: template columns 20fr;
+    grid-template-rows: 20fr;
+    grid: gap 0px;
+    align-content: center;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(220, 245, 229);
+}
+.hero-text-box  {
+    grid-column: 1 /-1;
+    grid-row: 1 / -1
+    align-self:  center;
+    text-align center
+    padding :  1rem;
+    z-index: 10;
 
 }
 
-img {
-    width: 500px;
-    height: 500px;
+.hero-heading {
+font-size: 2 rem;
+letter-spacing: 0.0.5rem ;
+font-weight: bold ;
 }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
